@@ -18,5 +18,5 @@ z += i;
 i++;
 }
 printf("%d\n", z);
-return 0;
+return (0);
 }
