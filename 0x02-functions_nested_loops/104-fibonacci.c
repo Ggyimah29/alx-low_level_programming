@@ -8,7 +8,7 @@
 
 int main(void)
 {
-int first = 1;
+int count = 1;
 int second = 2;
 int next;
 
@@ -27,5 +27,4 @@ second = next;
 printf("\n");
 return (0);
 }
-
 
