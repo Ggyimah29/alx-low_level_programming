@@ -7,18 +7,17 @@
 
 int main(void)
 {
-    int sum = 0;
+    int i, z = 0;
 
-    for (int i = 1; i < 1024; i++)
+    while (i < 1024)
     {
-        if (i % 3 == 0 || i % 5 == 0)
-        {
-            sum += i;
-        }
+    if (i % 3 == 0 || i % 5 == 0)
+    {
+    z += i;
     }
-
-    printf("%d\n", sum);
-
+    i++;
+    }
+    printf("%d\n", z);
     return 0;
 }
 
